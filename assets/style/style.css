@@ -41,7 +41,6 @@ main {
 .left-login h1 {
     color: #77ffc0;
     font-size: 3vw;
-    margin-top: 10px;
 }
 
 img {
@@ -130,4 +129,39 @@ form button:hover {
 
 form button:active {
     opacity: 0.4;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media only screen and (max-width: 950px) {
+    .card-login {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    main {
+       flex-direction: column;
+       flex-wrap: nowrap;
+    }
+
+    .left-login h1 {
+        display: none;
+    }
+
+    .left-login {
+        width: 100%;
+        height: auto;
+    }
+
+    .right-login {
+        width: 100%;
+        height: auto;
+    }
+
+    .image img {
+        width: 50vw;
+    }
+
 }
