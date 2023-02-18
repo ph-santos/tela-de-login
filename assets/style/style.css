@@ -142,6 +142,8 @@ form button:active {
 
 @media only screen and (max-width: 600px) {
     main {
+       height: 100%;
+       padding: 20px 0;
        flex-direction: column;
        flex-wrap: nowrap;
     }
